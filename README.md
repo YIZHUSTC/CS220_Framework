@@ -3,7 +3,7 @@ CS220 Project Framework Grid Routing
 
 Group Members: Ping Ren, Yi Zhu
 
-We have finished all required algorithms, including both no intersections and unlimited intersections versions. The code can be run as:
+We have finished all required algorithms, including both no intersections and unlimited intersections versions, all with minimized number of turns in its path. The code can be run as:
 
 ./grid_router Tests/test_sample.json [int] [bool]
 
@@ -15,10 +15,10 @@ where
     3: Lee 2-bit Encoding
     4: Ruben's algorithm with minimized number of turns in each path
     5: Ruben's algorithm with path-cost function (most recently added node)
-    //6: Korn's algorithm with weighted (overpull) path-cost function (Implemented separately from other algorithms however cannot work together when combined for unknown reason)
+    *** 6: Korn's algorithm with weighted (overpull) path-cost function (Implemented separately from other algorithms however cannot work together when combined for unknown reason)
     7: Hadlock's algorithm
 
-*** For Korn's algorithm, we implemented with another system. Will send you later by email.
+*** For Korn's algorithm, we implemented with another system. WILL SEND YOU BY EMAIL.
 
 [bool] represent two different versions
     0: unlimited intersections between routed nets
